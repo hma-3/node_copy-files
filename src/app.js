@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 'use strict';
 
-import fs from 'fs';
+const fs = require('fs');
 
 const [source, destination] = process.argv.slice(2);
 
